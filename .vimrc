@@ -81,6 +81,11 @@ nmap <leader>gl :YcmCompleter GoToDeclaration<CR>
 nmap <leader>gf :YcmCompleter GoToDefinition<CR>
 nmap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nmap <F4> :YcmDiags<CR>
+
+" shift + tab 跳出括号
+Bundle 'Raimondi/delimitMate'
+
+
 """"""""""""""""""""""""""""""""""""""""""
 "   以下是vim-scripts上的插件
 """"""""""""""""""""""""""""""""""""""""""
