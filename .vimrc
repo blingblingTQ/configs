@@ -120,12 +120,15 @@ filetype plugin indent on     " required!
 
 
 " other config
-set ts=4
 set nu
 set cursorcolumn
 set cursorline              " 突出显示当前行
-set shiftround
 set shiftwidth=4
+set shiftround
+set tabstop=4
+set softtabstop=4
+set smarttab
+set expandtab
 
 set encoding=utf-8
 
