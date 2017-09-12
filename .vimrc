@@ -12,7 +12,8 @@ let g:mapleader = ' '
 
     " let Vundle manage Vundle, required
     Plugin 'VundleVim/Vundle.vim'              "vundle
-    Plugin 'altercation/vim-colors-solarized'  "solarized主题
+"    Plugin 'altercation/vim-colors-solarized'  "solarized主题
+    Plugin 'morhetz/gruvbox'                   "gruvbox主题
     Plugin 'scrooloose/nerdtree'               "文件树
     Plugin 'majutsushi/tagbar'                 "tagbar
     Plugin 'vim-airline/vim-airline'           "状态栏
@@ -226,11 +227,14 @@ let g:mapleader = ' '
     " indent
     set smartindent
     set autoindent
+
+    set nocompatible
+    set backspace=indent,eol,start
     
     " highlight
     syntax enable
     set background=dark
-    colorscheme solarized
+    colorscheme gruvbox
    
     " line number
     set number
